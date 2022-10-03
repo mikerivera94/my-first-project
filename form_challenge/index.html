@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Sell your car</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!--Header-->
+    <div class="container">
+        <div class="header">
+            <h3>Register your car here to sell it faster!</h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Car form</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title">Sell your car here!!!</h1>
+                <p>Describe the Characteristcs of your vehichle, and mark all the 
+                    features of the car.
+                </p>
+                <!--Ad title-->
+                <form>
+            <div class="box-input">
+                <label for="title"
+                >Ad title: <span class="required-field">*</span></label
+                >
+                <input 
+                type="text"
+                name="title"
+                id="title"
+                class="block"
+                placeholder="A title for the ad of your vehichle"
+                minlength="1"
+                maxlength="30"
+                required
+                />
+            </div>
+            <!--price-->
+            <div class="box-input">
+                <label for="price">
+                    Price: <span class="requied-field">*</span></label
+                    >
+                    <input type="number" 
+                    name="price" 
+                    id="price" 
+                    class="block" 
+                    placeholder="Define the Price" 
+                    required
+                    />
+            </div>
+            <!--Description-->
+            <div class="box-input">
+                <label for="description"
+                >description <span class="required-field">*</span></label
+                >
+                <textarea name="description"
+                id="description"
+                class="block"
+                placeholder="Give details on you vehichle, for example it has a dent on hood"
+                required
+                ></textarea>
+            </div>
+            <!--brand-->
+            <div class="box-input">
+                <label for="Brand"> Brand <span class="required-field">*</span></label
+                    >
+                    <input type="text" 
+                    name="brand" 
+                    id="brand" 
+                    class="block" 
+                    placeholder="Type the brand of vehichle here"
+                    required
+                    >
+            </div>
+            <!--mileage-->
+            <div class="box-input">
+                <label for="mileage">
+                        Car mileage <span class="required-field">*</span></label
+                    >
+                    <input type="number" 
+                    name="mileage" 
+                    id="mileage" 
+                    class="block" 
+                    placeholder="Type the vehichle mileage here"
+                    required
+                    />
+                    <!--Purchase Date-->
+            <div class="box-input">
+                <label for="purchase date">
+                        purchase date <span class="required-field">*</span></label
+                    >
+                    <input type="date" 
+                    name="purchase_date" 
+                    id="purchase_date" 
+                    class="block" 
+                    required
+                    />
+                    <!--Transmission-->
+                    <div class="box-input">
+                        <p>Transmission: <span class="required-field">*</span></p>
+                        <input type="radio" id="manual" name="gear">
+                        <label for="manual">Manual</label>
+                        <input type="radio" id="auto" name="gear">
+                        <label for="auto">Automatic</label>
+                        </div>
+                        <!--options-->
+            <div class="optional-box">
+                <p>Optionals:</p>
+                <ul class="optional_list">
+                    <li>
+                        <input 
+                        type="checkbox"
+                        id="airbag" 
+                        name="optional[]" 
+                        value="airbag"
+                        />
+                    <label for="airbag">airbag</label>
+                    </li>
+                    <li>
+                        <input 
+                        type="checkbox"
+                        id="alarm" 
+                        name="optional[]" 
+                        value="alarm"
+                        />
+                    <label for="alarm_system">alarm</label>
+                    </li>
+                    <li>
+                        <input 
+                        type="checkbox"
+                        id="ac" 
+                        name="optional[]" 
+                        value="ac"
+                        />
+                    <label for="ac">A/C</label>
+                    </li>
+                    </ul>
+            </div>
+            <div class="optional-box">
+                <ul class="optional_list">
+                    <li>
+                        <input 
+                        type="checkbox"
+                        id="lane_assist" 
+                        name="optional[]" 
+                        value="lane_assist"
+                        />
+                    <label for="lane_assist">Lane assist</label>
+                    </li>
+                    <li>
+                        <input 
+                        type="checkbox"
+                        id="keyless_start" 
+                        name="optional[]" 
+                        value="keyless_start"
+                        />
+                    <label for="keyless_start">Keyless start</label>
+                    </li>
+                    <li>
+                        <input 
+                        type="checkbox"
+                        id="smartphone" 
+                        name="optional[]" 
+                        value="smartphone"
+                        />
+                    <label for="smartphone">Smartphone compatible</label>
+                    </li>
+                    </ul>
+            </div>
+            <!--images-->
+            <div class="box-input">
+                <p>Car Images: <span class="requied-field">*</span></p>
+                <input 
+                type="file" 
+                multiple accept="image/png, image/jpg" 
+                id="images"
+                name="images"
+                required>
+            </div>
+            <input type="submit" class="btn-submit" value="Send" />
+        </form>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
