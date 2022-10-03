@@ -1,0 +1,61 @@
+body { 
+    background-image: url(../img/map.jpg) ;
+    overflow: scroll;
+}
+
+p {
+    color: blue!important;
+}
+
+.Title {
+    text-size-adjust: 50px;
+    text-align: center;
+    color: #bd300d;
+}
+
+.Yonko {
+    height: 500px;
+    width: 800px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 100px;
+}
+
+.Intro {
+color: #000000;
+font-style: italic;
+font-size: 25px;
+}
+
+.names {
+    text-size-adjust: 50px;
+    color: #bd300d;
+    padding-top: 50px;
+}
+
+.border {
+    border: solid #070e09;
+    border-radius: 25px;
+    background-color: #fff;
+    background-image: url(../img/map.jpg)
+}
+
+.webpage {
+    color: #000000;
+    font-size: large;
+    font: bolder;
+}
+
+.text {
+    color: #000000;
+font-style: italic;
+font-size: 20px;
+padding-bottom: 25px;
+}
+
+.img {
+    height: 400px;
+    width: 500px;
+  padding-bottom: 25px;
+}
